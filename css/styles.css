@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    overflow: hidden;
+}
+
+#imageDisplay {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+}
